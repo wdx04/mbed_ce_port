@@ -1,0 +1,10 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.c_lib": "small",
+            "target.printf_lib": "minimal-printf",
+            "target.console-uart": true,
+            "events.shared-dispatch-from-application": true
+        }
+    }
+}

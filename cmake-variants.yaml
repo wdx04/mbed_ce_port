@@ -1,0 +1,108 @@
+buildType:
+  default: Develop
+  choices:
+    Develop:
+      short: Develop
+      long: Emit debug information but also optimize
+      buildType: Develop
+    Debug:
+      short: Debug
+      long: Emit debug information and don't optimize
+      buildType: Debug
+    Release:
+      short: Release
+      long: Optimize generated code
+      buildType: Release
+board:
+  default: STM32F405RG
+  choices:
+    NUCLEO_F103RB:
+      short: NUCLEO_F103RB
+      settings:
+        MBED_TARGET: NUCLEO_F103RB
+        UPLOAD_METHOD: STM32CUBE
+    NUCLEO_F413ZH:
+      short: NUCLEO_F413ZH
+      settings:
+        MBED_TARGET: NUCLEO_F413ZH
+        UPLOAD_METHOD: STM32CUBE
+    NUCLEO_L432KC:
+      short: NUCLEO_L432KC
+      settings:
+        MBED_TARGET: NUCLEO_L432KC
+        UPLOAD_METHOD: STM32CUBE
+    NUCLEO_F303K8:
+      short: NUCLEO_F303K8
+      settings:
+        MBED_TARGET: NUCLEO_F303K8
+        UPLOAD_METHOD: STM32CUBE
+    NUCLEO_U545RE_Q:
+      short: NUCLEO_U545RE_Q
+      settings:
+        MBED_TARGET: NUCLEO_U545RE_Q
+        UPLOAD_METHOD: STM32CUBE
+    NUCLEO_U5A5ZJ_Q:
+      short: NUCLEO_U5A5ZJ_Q
+      settings:
+        MBED_TARGET: NUCLEO_U5A5ZJ_Q
+        UPLOAD_METHOD: STM32CUBE
+    B_U585I_IOT02A:
+      short: B_U585I_IOT02A
+      settings:
+        MBED_TARGET: B_U585I_IOT02A
+        UPLOAD_METHOD: STM32CUBE
+    STM32G030C8:
+      short: STM32G030C8
+      settings:
+        MBED_TARGET: STM32G030C8
+        UPLOAD_METHOD: STM32CUBE
+    DISCO_F723IE:
+      short: DISCO_F723IE
+      settings:
+        MBED_TARGET: DISCO_F723IE
+        UPLOAD_METHOD: STM32CUBE
+    DISCO_F429ZI:
+      short: DISCO_F429ZI
+      settings:
+        MBED_TARGET: DISCO_F429ZI
+        UPLOAD_METHOD: STM32CUBE
+    STM32F405RG:
+      short: STM32F405RG
+      settings:
+        MBED_TARGET: STM32F405RG
+        UPLOAD_METHOD: STM32CUBE
+    STM32F407VE_JZ:
+      short: STM32F407VE
+      settings:
+        MBED_TARGET: STM32F407VE_JZ
+        UPLOAD_METHOD: STM32CUBE
+    STM32U575RI:
+      short: STM32U575RI
+      settings:
+        MBED_TARGET: STM32U575RI
+        UPLOAD_METHOD: STM32CUBE
+    RASPBERRY_PI_PICO:
+      short: PICO
+      settings:
+        MBED_TARGET: RASPBERRY_PI_PICO
+        UPLOAD_METHOD: PICOTOOL
+    STM32H7B0VB:
+      short: STM32H7B0VB
+      settings:
+        MBED_TARGET: STM32H7B0VB
+        UPLOAD_METHOD: STM32CUBE
+    STM32H750XB_JK:
+      short: STM32H750XB
+      settings:
+        MBED_TARGET: STM32H750XB_JK
+        UPLOAD_METHOD: STM32CUBE
+    STM32H750B_DK:
+      short: STM32H750B_DK
+      settings:
+        MBED_TARGET: STM32H750B_DK
+        UPLOAD_METHOD: STM32CUBE
+    IOT_DEVKIT_STM32L496VG:
+      short: IOT_DEVKIT_STM32L496VG
+      settings:
+        MBED_TARGET: IOT_DEVKIT_STM32L496VG
+        UPLOAD_METHOD: STM32CUBE

@@ -1,0 +1,9 @@
+{
+  "name": "st7735-spi",
+  "config": {
+        "framebuffer-size": {
+            "help": "Default framebuffer size for the video driver",
+            "value": 2048
+        }
+  }
+}
